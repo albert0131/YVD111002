@@ -14,6 +14,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
     }
 
+//----------- 手動建立 OptionsMenu
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
@@ -23,6 +24,7 @@ public class MainActivity extends AppCompatActivity {
         return super.onCreateOptionsMenu(menu);
     }
 
+    //------ 定義 OptionsMenu 動作, 彈出Toast視窗
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
         if (item.getTitle().toString().equals("設定"))
